@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<style>
+		body {
+			font-family: Verdana, sans-serif;
+			background-color: #2F4F4F;
+		}
+div{margin: auto;
+			width: 100%;
+			padding: 25px;
+			background-color: #fff;
+			border-radius: 7px;
+			box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+			text-align: left;
+		}
+
+		form {
+			background-color: #ffffff;
+                  
+			max-width: 500px;
+			margin: 70px auto;
+			padding: 30px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+		}
+		input[type="text"], input[type="password"] {
+			width: 80%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 16px 20px;
+			margin: 8px 0;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+                  text-align = "centre";
+                  font-size: 16px;
+		}
+		input[type="submit"]:hover {
+			background-color: #45a049;
+		}
+h2{
+text-align: center;
+}
+
+	</style>
+</head>
+<body>
+	<form method="POST" action = "menu.html">
+		<h2>Login</h2>
+		<label for="username">Username</label>
+		<input type="text" id="username" name="username" placeholder="Enter your username" required>
+		<label for="password">Password</label>
+		<input type="password" id="password " name="password " placeholder="Enter your password" required >
+		<h2>	
+			<input type="submit" value="Login">
+            </h2>
+	</form>
+</body>
+</html>

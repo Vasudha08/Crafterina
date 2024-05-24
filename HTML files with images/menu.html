@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Verdana , sans-serif;
+background-color: #4682B4;
+		}
+		
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			
+		}
+		
+		.box {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin: 10px;
+			padding: 20px;
+			background-color: white;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			border-radius: 10px;
+			min-width: 350px;
+			max-width: 400px;
+			height: 400px;
+		}
+		
+		img {
+			max-width: 200%;
+			max-height: 200%;
+			object-fit: contain;
+			margin-bottom: 10px;
+		}
+		
+		button {
+			 background-color: #696969;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font : Verdana;
+  font-family: Verdana , sans-serif;
+border-radius: 4px;
+		}
+		
+		.button:hover {
+  background-color: #45a049;
+  color: white;
+}
+			
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<img src="Upload shop details.png" alt="Upload Product Details">
+			<button class="button" type="button" onclick="window.location.href='product.html'">Upload product details</button>
+			
+		</div>
+		<div class="box">
+			<img src="Upload-product-details.jpg" alt="Upload Shop Details">
+			<button class="button" type="button" onclick="window.location.href='shop.html'">Upload shop details</button>
+			
+		</div>
+		<div class="box">
+			<img src="See orders.png" alt="See Orders">
+			<button class="button" type="button">See orders</button>
+			
+		</div>
+	</div>
+</body>
+</html>
